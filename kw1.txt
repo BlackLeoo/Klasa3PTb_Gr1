@@ -1,0 +1,44 @@
+SELECT `Imie`, `Nazwisko` FROM `klasa3PTb_gr1_osoba` WHERE Imie='Wiktor';
+SELECT `ID`,`Imie`, `Nazwisko` FROM `klasa3PTb_gr1_osoba` WHERE ID % 2 = 0;
+
+SELECT `imie`, `nazwisko` FROM `klasa3PTb_gr1_osoba` WHERE wiek = 16 OR wiek >= 20;
+
+
+
+UPDATE `klasa3PTb_gr1_osoba` SET `Typ_Miejscowosc` = 'Wies' WHERE `id` = 2;
+UPDATE `klasa3PTb_gr1_osoba` SET `Typ_Miejscowosc` = 'Wies' WHERE `id` = 3;
+UPDATE `klasa3PTb_gr1_osoba` SET `Typ_Miejscowosc` = 'Wies' WHERE `id` = 4;
+UPDATE `klasa3PTb_gr1_osoba` SET `Typ_Miejscowosc` = 'Wies' WHERE `id` = 5;
+UPDATE `klasa3PTb_gr1_osoba` SET `Typ_Miejscowosc` = 'Wies' WHERE `id` = 6;
+UPDATE `klasa3PTb_gr1_osoba` SET `Typ_Miejscowosc` = 'Wies' WHERE `id` = 8;
+UPDATE `klasa3PTb_gr1_osoba` SET `Typ_Miejscowosc` = 'Wies' WHERE `id` = 11;
+UPDATE `klasa3PTb_gr1_osoba` SET `Typ_Miejscowosc` = 'Wies' WHERE `id` = 12;
+UPDATE `klasa3PTb_gr1_osoba` SET `Typ_Miejscowosc` = 'Wies' WHERE `id` = 14;
+UPDATE `klasa3PTb_gr1_osoba` SET `Typ_Miejscowosc` = 'Wies' WHERE `id` = 15;
+
+
+
+
+SELECT `imie`, `nazwisko` FROM `klasa3PTb_gr1_osoba` WHERE nazwisko LIKE 'G%';
+Select `id`,`imie`,`nazwisko`, `Wiek` from `klasa3PTb_gr1_osoba` where Id % 2 != 0;
+
+
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Jasło" where `Nazwisko`="Rączka";
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Bieździedza" where `Nazwisko`="Czajka";
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Opacie" where `Nazwisko`="Czech";
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Wolica" where `Nazwisko`="Dybaś";
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Opacionka" where `Nazwisko`="Dziedzic";
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Jasło" where `Nazwisko`="Fornalczyk";
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Żółków" where `Nazwisko`="Gajewski";
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Zarzecze" where `Nazwisko`="Gałuszka";
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Kłodawa" where `Nazwisko`="Kołodziej";
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Jasło" where `Nazwisko`="Kufel";
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Czermna" where `Nazwisko`="Marcinek";
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Dobrynia" where `Nazwisko`="Mikołajczyk";
+
+
+
+
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Zarzecze" where `Nazwisko`="Gałuszka";
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Kłodawa" where `Nazwisko`="Kołodziej";
+UPDATE `klasa3PTb_gr1_osoba` SET `Miejscowosc`="Ujazd" where `Nazwisko`="Gajda";
